@@ -75,17 +75,6 @@ for (let i = 1; i <= 100; i++) {
         // aggiungo l'elemento in pagina
         container.appendChild(element);
     }
-
-    // // creo un elemento div nuovo
-    // let element = document.createElement("div");
-
-    // // aggiungo contenuto a element
-    // element.append(fizz);
-
-    // // aggiungo l'elemento in pagina
-    // container.appendChild(element);
-
-
     
 }
 

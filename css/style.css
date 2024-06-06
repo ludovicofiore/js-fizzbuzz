@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    background-color: rgb(8, 59, 77);
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container div {
+    width: calc((100% / 10) - 20px);
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(20, 139, 179);
+    text-align: center;
+    line-height: 4.5;
+}
+
+.container .fizz-class {
+    background-color: rgb(13, 214, 161);
+}
+
+.container .buzz-class {
+    background-color: rgb(255, 209, 102);
+}
+
+.container .fizzbuzz-class {
+    background-color: rgb(240, 70, 109);
+}
